@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    transition: all 0.3 ease-in-out;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+main#fondo {
+    background-color: rgb(7, 7, 60);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+/*=========================OBJETOS=========================*/
+#contenedor {
+    background-color: whitesmoke;
+    opacity: 75%;
+    border-radius: 20px;
+    width: 600px;
+    height: 600px;
+    color: white;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+    #contenedor input {
+        border-radius: 12px;
+        padding: 5px;
+    }
+    
+    #formulario #a {
+        position: absolute;
+        top: 130px;
+        right: 170px;
+        font-size: 19px;
+    }
+
+    #formulario #b {
+        position: absolute;
+        top: 210px;
+        right: 170px;
+        font-size: 19px;
+    }
+
+    #formulario label {
+        color: black;
+        font-size: 19px;
+        position: absolute;
+        top: 500px;
+    }
+
+    #formulario button {
+        border-radius: 12px;
+        padding: 12px;
+        background-color: greenyellow;
+    }
+
+    #formulario .resultado_ {
+        display: grid;
+        place-items: center;
+        border-radius: 12px;
+        padding: 12px;
+    }
+
+    #formulario #resultado {
+        font-size: 19px;
+        padding: 20px;
+        color: black;
+    }
